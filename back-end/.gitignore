@@ -15,17 +15,17 @@
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
-/public/assets/type/*.png
-/public/assets/type/*.jpg
-/public/assets/type/*.jpeg
+# /public/assets/type/*.png
+# /public/assets/type/*.jpg
+# /public/assets/type/*.jpeg
 
-/public/assets/icon/*.jpg
-/public/assets/icon/*.jpeg
-/public/assets/icon/*.png
+# /public/assets/icon/*.jpg
+# /public/assets/icon/*.jpeg
+# /public/assets/icon/*.png
 
-/public/assets/accomodation/*.jpg
-/public/assets/accomodation/*.jpeg 
-/public/assets/accomodation/*.png 
+# /public/assets/accomodation/*.jpg
+# /public/assets/accomodation/*.jpeg 
+# /public/assets/accomodation/*.png 
 
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem

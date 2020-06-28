@@ -25,7 +25,7 @@ class Extra
     /**
      * @ORM\Column(type="string", length=255)
      * @Assert\Regex(
-     *pattern="(^[a-zA-Z-éèà]+$)",
+     * pattern="/^[-'a-zA-ZÀ-ÖØ-öø-ÿ\s]+$/",
      *message="Le nom de l'extra ne peut contenir ni de caractères spéciaux, ni de chiffres"
      *)
      */
